@@ -1,0 +1,33 @@
+{
+  "name": "litentry-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "prettier": "prettier --write './**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@polkadot/extension-dapp": "^0.44.6",
+    "@types/node": "18.11.15",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "cors": "^2.8.5",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/jsonwebtoken": "^8.5.9",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1"
+  }
+}
